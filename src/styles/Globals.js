@@ -22,6 +22,10 @@ export default StyleSheet.create({
     fontWeight: "400",
     color: COLORS.orange,
   },
+  textDefault: {
+    fontSize: 14,
+    fontWeight: "500",
+  },
   title1: {
     fontSize: 32,
     fontWeight: "500",
@@ -35,5 +39,8 @@ export default StyleSheet.create({
   row: {
     display: "flex",
     flexDirection: "row",
+  },
+  icon: {
+    fontSize: 22,
   },
 });

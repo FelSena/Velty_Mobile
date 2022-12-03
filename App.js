@@ -2,11 +2,12 @@ import React from "react";
 import { StatusBar } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import Routes from "./src/routes";
+import COLORS from "./src/styles/Colors";
 
 export default function App() {
   return (
     <NavigationContainer>
-      <StatusBar backgroundColor="#F09200" barStyle="light-content" />
+      <StatusBar backgroundColor={COLORS.orange} barStyle="light-content" />
       <Routes />
     </NavigationContainer>
   );
