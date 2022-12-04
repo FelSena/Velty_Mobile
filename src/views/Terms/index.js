@@ -16,12 +16,7 @@ export default function Terms() {
   const scrollRef = useRef();
   return (
     <View style={styles.container}>
-      <View
-        style={[
-          Globals.row,
-          { justifyContent: "space-between", alignItems: "center" },
-        ]}
-      >
+      <View style={Globals.arrowContainer}>
         <BackArrow />
         <Icon name="export-variant" style={Globals.icon} />
       </View>

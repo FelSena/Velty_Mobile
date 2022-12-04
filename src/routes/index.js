@@ -1,6 +1,9 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Cart from "../views/Cart";
+import FaceId from "../views/FaceId";
 import Home from "../views/Home";
 import Login from "../views/Login";
+import Profile from "../views/Profile";
 import SignUp from "../views/SingUp";
 import Terms from "../views/Terms";
 import User from "../views/User";
@@ -39,6 +42,21 @@ export default function Routes() {
       <Stack.Screen
         name="User"
         component={User}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="FaceId"
+        component={FaceId}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Cart"
+        component={Cart}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Profile"
+        component={Profile}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>

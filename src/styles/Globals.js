@@ -6,9 +6,17 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: "#EFEFEF",
   },
+  padContainer: {
+    padding: "5%",
+  },
+  arrowContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
   text: {
     fontSize: 14,
-    fontWeight: "400",
+    fontWeight: "500",
     color: COLORS.darkGray,
   },
   textCenter: {
